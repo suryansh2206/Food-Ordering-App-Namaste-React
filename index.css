@@ -1,7 +1,13 @@
 .header {
   display: flex;
   justify-content: space-between;
-  border: 2px solid black;
+  margin: 10px;
+  width: auto;
+  background-color: rgb(173, 239, 232);
+  border-radius: 5px;
+  box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+  color: black;
+  font-weight: bold;
 }
 
 .logo {
@@ -29,10 +35,13 @@
 }
 
 .restaurant-card {
-  margin: 5px;
-  padding: 5px;
-  width: 150px;
-  height: 300px;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+  /* height: 300px; */
 }
 
 .restaurant-card:hover {
@@ -41,7 +50,10 @@
 }
 
 .restaurant-image {
-  width: 100%;
+  width: 100%; /* or specify a fixed width */
+  height: 200px; /* Set a fixed height */
+  border-radius: 10px;
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
 }
 
 .search {
